@@ -26,6 +26,7 @@ struct ContentView: View {
                 Text("Static row 4")
             }
         }
+        .listStyle(GroupedListStyle())
     }
 }
 
